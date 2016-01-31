@@ -46,5 +46,29 @@
       <td>Pointer</td>
       <td>将结构体或结构体的数组当作内存块对待, 但不固定结构体</td>
     </tr>
+    <tr>
+      <td>RichEditBoxExtension</td>
+      <td>富文本框的帮助</td>
+    </tr>
+    <tr>
+      <td>StaticCast</td>
+      <td>用于转换c++的代码</td>
+    </tr>
+    <tr>
+      <td>Strings</td>
+      <td>实现一些旧的VB库函数</td>
+    </tr>
+    <tr>
+      <td>SystemVersion</td>
+      <td>用于获取系统版本</td>
+    </tr>
+    <tr>
+      <td>TextBoxExtensions</td>
+      <td>文本框的模拟操作</td>
+    </tr>
+    <tr>
+      <td>Xaml2HtmlNavigationPage</td>
+      <td>允许Xaml应用中嵌套Winjs应用</td>
+    </tr>
   </tbody>
 </table>
