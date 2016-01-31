@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>fe554b94-789a-40ac-98eb-b012815ac708</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Nukepayload2.CodeConversionServices.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Brushes.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)ClipBoard.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)ColorEx.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContentDialogSimulateWindow.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)GB2312Encoding.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)GrammarCastHelper.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Interaction.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)PinnedPointer.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pointer.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)RichEditBoxExtension.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)StaticCast.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Strings.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)SystemVersion.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)TextBoxExtensions.vb" />
+    <Compile Include="$(MSBuildThisFileDirectory)Xaml2HtmlNavigationPage.vb" />
+  </ItemGroup>
+</Project>
