@@ -9,6 +9,7 @@
     <Import_RootNamespace>Nukepayload2.CodeConversionServices.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AppleAnimationPage.vb" />
     <Compile Include="$(MSBuildThisFileDirectory)Brushes.vb" />
     <Compile Include="$(MSBuildThisFileDirectory)ClipBoard.vb" />
     <Compile Include="$(MSBuildThisFileDirectory)ColorEx.vb" />
@@ -24,5 +25,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)SystemVersion.vb" />
     <Compile Include="$(MSBuildThisFileDirectory)TextBoxExtensions.vb" />
     <Compile Include="$(MSBuildThisFileDirectory)Xaml2HtmlNavigationPage.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)License.txt" />
   </ItemGroup>
 </Project>
