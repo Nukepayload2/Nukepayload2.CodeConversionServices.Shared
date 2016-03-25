@@ -1,4 +1,5 @@
-﻿Imports Windows.UI.Xaml.Media.Animation
+﻿#If WINDOWS_UWP Or WINDOWS_PHONE_APP Then
+Imports Windows.UI.Xaml.Media.Animation
 ''' <summary>
 ''' 移植苹果的应用时使用。这种页面自带苹果导航动画和手势。
 ''' </summary>
@@ -31,3 +32,4 @@ Public MustInherit Class AppleAnimationPage
         End If
     End Sub
 End Class
+#End If

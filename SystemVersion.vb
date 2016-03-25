@@ -1,4 +1,5 @@
 ﻿Imports Windows.System.Profile.AnalyticsInfo
+#If WINDOWS_UWP Then
 Friend Module SystemVersion
     <Extension>
     Function ToDisplayStringRev$(ver As PackageVersion)
@@ -13,3 +14,4 @@ Friend Module SystemVersion
 " & CULng(VersionInfo.DeviceFamilyVersion).static_cast(Of PackageVersion).ToDisplayString
     End Function
 End Module
+#End If
